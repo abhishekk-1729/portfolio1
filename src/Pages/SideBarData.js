@@ -8,27 +8,27 @@ export const SideBarData = [
   },
   {
     title: 'Sophia PDF Chatbot',
-    path: '/learnings/mernweb',
+    path: '/learnings/sophiapdf',
     cName: 'nav-text'
   },
   {
     title: 'Spam Classifier',
-    path: '/learnings/mernweb',
+    path: '/learnings/smsspam',
     cName: 'nav-text'
   },
   {
     title: 'MLOps',
-    path: '/learnings/mernweb',
+    path: '/learnings/mlops',
     cName: 'nav-text'
   },
   {
     title: 'Web Development',
-    path: '/learnings/mernweb',
+    path: '/learnings/webdev',
     cName: 'nav-text'
   },
   {
     title: 'AVL Tree(Java)',
-    path: '/learnings/mernweb',
+    path: '/learnings/orgHierarchy',
     cName: 'nav-text'
   }
 ];
