@@ -42,6 +42,11 @@ export default function App() {
         </Route>
         <Route path = "/learnings" element={<Learnings/>}>
           <Route path = "mernweb" element={<MernWeb/>}/>
+  <Route path = "webdev" element={<MernWeb/>}/>
+  <Route path = "orgHierarchy" element={<MernWeb/>}/>
+  <Route path = "mlops" element={<MernWeb/>}/>
+  <Route path = "smsspam" element={<MernWeb/>}/>
+  <Route path = "sophia" element={<MernWeb/>}/>
         </Route>
       </Routes>
       </BrowserRouter> 
