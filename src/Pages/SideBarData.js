@@ -8,7 +8,7 @@ export const SideBarData = [
   },
   {
     title: 'Sophia PDF Chatbot',
-    path: '/learnings/sophiapdf',
+    path: '/learnings/sophia',
     cName: 'nav-text'
   },
   {
