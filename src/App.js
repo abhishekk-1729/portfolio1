@@ -46,7 +46,7 @@ export default function App() {
   <Route path = "orgHierarchy" element={<MernWeb/>}/>
   <Route path = "mlops" element={<MernWeb/>}/>
   <Route path = "smsspam" element={<MernWeb/>}/>
-  <Route path = "sophia" element={<MernWeb/>}/>
+  {/* <Route path = "sophia" element={<MernWeb/>}/> */}
         </Route>
       </Routes>
       </BrowserRouter> 
