@@ -13,7 +13,7 @@ export default function Navbar() {
       <div>
         <div className="container">
             <div className="logo-brand">
-                <a href="/">Abhishek Kumar</a>
+                <a href="/">Archives</a>
             </div>
 
             <nav>
