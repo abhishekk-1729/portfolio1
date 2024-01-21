@@ -16,6 +16,11 @@ import AdminContactUpdate from './Pages/Admin-ContactUpdate'
 import AdminService from './Pages/Admin-ServiceUpdate'
 import Learnings  from './Pages/Learnings';
 import MernWeb  from './Pages/MernWeb';
+import WebDev  from './Pages/WebDev';
+import MlOps  from './Pages/MlOps';
+import OrgHierarchy  from './Pages/OrgHierarchy';
+import Sophia  from './Pages/Sophia';
+import SmsSpam  from './Pages/SmsSpam';
 
 export default function App() {
   return (
@@ -42,11 +47,11 @@ export default function App() {
         </Route>
         <Route path = "/learnings" element={<Learnings/>}>
           <Route path = "mernweb" element={<MernWeb/>}/>
-  <Route path = "webdev" element={<MernWeb/>}/>
-  <Route path = "orgHierarchy" element={<MernWeb/>}/>
-  <Route path = "mlops" element={<MernWeb/>}/>
-  <Route path = "smsspam" element={<MernWeb/>}/>
-  <Route path = "sophia" element={<MernWeb/>}/>
+  <Route path = "webdev" element={<WebDev/>}/>
+  <Route path = "orgHierarchy" element={<OrgHierarchy/>}/>
+  <Route path = "mlops" element={<MlOps/>}/>
+  <Route path = "smsspam" element={<SmsSpam/>}/>
+  <Route path = "sophia" element={<Sophia/>}/>
         </Route>
       </Routes>
       </BrowserRouter> 
