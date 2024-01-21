@@ -2,33 +2,46 @@ import React from 'react';
 
 export const SideBarData = [
   {
-    title: 'MERN Web Development',
+    title: 'Organizational Hierarchy',
+    path: '/learnings/orgHierarchy',
+    cName: 'nav-text'
+  },
+  {
+    title: 'Quick Mart, An E-commerce Clone',
+    path: '/learnings/quickmart',
+    cName: 'nav-text'
+  },
+  {
+    title: 'NSS IITD App',
+    path: '/learnings/nssiitdapp',
+    cName: 'nav-text'
+  },
+  {
+    title: 'Archives, A Portfolio Website',
     path: '/learnings/mernweb',
     cName: 'nav-text'
   },
   {
-    title: 'Sophia PDF Chatbot',
-    path: '/learnings/sophia',
-    cName: 'nav-text'
-  },
-  {
-    title: 'Spam Classifier',
-    path: '/learnings/smsspam',
-    cName: 'nav-text'
-  },
-  {
-    title: 'MLOps',
+    title: 'Satisfaction Predictor',
     path: '/learnings/mlops',
     cName: 'nav-text'
   },
   {
-    title: 'Web Development',
-    path: '/learnings/webdev',
+    title: 'SMS Spam Classifier',
+    path: '/learnings/smsspam',
     cName: 'nav-text'
   },
   {
-    title: 'AVL Tree(Java)',
-    path: '/learnings/orgHierarchy',
+    title: 'Sophia, A PDF Chatbot',
+    path: '/learnings/sophia',
     cName: 'nav-text'
-  }
+  },
+
+  {
+    title: 'Bituminous Mixture Data Analysis',
+    path: '/learnings/webdev',
+    cName: 'nav-text'
+  },
+
+
 ];

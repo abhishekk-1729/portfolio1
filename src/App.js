@@ -21,6 +21,8 @@ import MlOps  from './Pages/MlOps';
 import OrgHierarchy  from './Pages/OrgHierarchy';
 import Sophia  from './Pages/Sophia';
 import SmsSpam  from './Pages/SmsSpam';
+import NSSIITDApp  from './Pages/NSSIITDApp';
+import QuickMart  from './Pages/QuickMart';
 
 export default function App() {
   return (
@@ -52,6 +54,8 @@ export default function App() {
   <Route path = "mlops" element={<MlOps/>}/>
   <Route path = "smsspam" element={<SmsSpam/>}/>
   <Route path = "sophia" element={<Sophia/>}/>
+  <Route path = "nssiitdapp" element={<NSSIITDApp/>}/>
+  <Route path = "quickmart" element={<QuickMart/>}/>
         </Route>
       </Routes>
       </BrowserRouter> 
