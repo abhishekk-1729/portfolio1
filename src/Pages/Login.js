@@ -27,7 +27,7 @@ export default function Login() {
         // first time regsister krte h jab tb page reload krdeta h
         alert(user);
         try {
-            const response = await fetch('http://localhost:8000/api/auth/login',{
+            const response = await fetch('https://abhishek.nssiitd.in/portfolio/api/auth/login',{
                 method:"POST",
                 headers:{
                     'Content-Type':"application/json"
