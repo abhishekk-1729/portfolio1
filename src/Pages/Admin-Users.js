@@ -10,7 +10,7 @@ export default function AdminUsers() {
     const handleDeleteUser = async(id) => {
         try {
             console.log(id);
-            const response = await fetch(`http://localhost:8000/api/admin/users/delete/${id}`,{
+            const response = await fetch(`https://abhishek.nssiitd.in/portfolio/api/admin/users/delete/${id}`,{
                 method:"DELETE",
                 headers:{
                     Authorization:authorizationToken
@@ -28,7 +28,7 @@ export default function AdminUsers() {
 
     const getUsers = async() => {
         try {
-            const response = await fetch("http://localhost:8000/api/admin/users",{
+            const response = await fetch("https://abhishek.nssiitd.in/portfolio/api/admin/users",{
                 method:"GET",
                 headers:{
                     Authorization: authorizationToken
