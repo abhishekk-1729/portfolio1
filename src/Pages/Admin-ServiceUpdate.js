@@ -29,7 +29,7 @@ export default function Register() {
         event.preventDefault();
         // first time regsister krte h jab tb page reload krdeta h
         try {
-            const response = await fetch('http://localhost:8000/api/admin/service',{
+            const response = await fetch('https://abhishek.nssiitd.in/portfolio/api/admin/service',{
                 method:"POST",
                 headers:{
                     'Content-Type':"application/json",
