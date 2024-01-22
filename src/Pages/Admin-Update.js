@@ -42,7 +42,7 @@ export default function AdminUpdate() {
     const getUser = async () =>{
         try {
             
-            const response = await fetch(`http://localhost:8000/api/admin/users/${params.id}`,{
+            const response = await fetch(`https://abhishek.nssiitd.in/portfolio/api/admin/users/${params.id}`,{
                 method:"GET",
                 headers:{
                     Authorization: authorizationToken
@@ -69,7 +69,7 @@ export default function AdminUpdate() {
 
         try {
             console.log(user);
-            const response = await fetch(`http://localhost:8000/api/admin/users/update/${params.id}`,{
+            const response = await fetch(`https://abhishek.nssiitd.in/portfolio/api/admin/users/update/${params.id}`,{
                 method:"PATCH",
                 headers:{
                     Authorization: authorizationToken,
