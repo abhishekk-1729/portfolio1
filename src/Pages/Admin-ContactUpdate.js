@@ -47,7 +47,7 @@ export default function AdminUpdate() {
     const getContact = async () =>{
         try {
             
-            const response = await fetch(`http://localhost:8000/api/admin/contacts/${params.id}`,{
+            const response = await fetch(`https://abhishek.nssiitd.in/portfolio/api/admin/contacts/${params.id}`,{
                 method:"GET",
                 headers:{
                     Authorization: authorizationToken
@@ -74,7 +74,7 @@ export default function AdminUpdate() {
 
         try {
             console.log(Contact);
-            const response = await fetch(`http://localhost:8000/api/admin/contacts/update/${params.id}`,{
+            const response = await fetch(`https://abhishek.nssiitd.in/portfolio/api/admin/contacts/update/${params.id}`,{
                 method:"PATCH",
                 headers:{
                     Authorization: authorizationToken,
