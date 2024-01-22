@@ -28,7 +28,7 @@ export default function AdminUsers() {
 
     const getContacts = async() => {
         try {
-            const response = await fetch("http://localhost:8000/api/admin/contacts",{
+            const response = await fetch("https://abhishek.nssiitd.in/portfolio/api/admin/contacts",{
                 method:"GET",
                 headers:{
                     Authorization: authorizationToken
