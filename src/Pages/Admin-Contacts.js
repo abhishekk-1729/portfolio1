@@ -10,7 +10,7 @@ export default function AdminUsers() {
     const handleDeleteContact = async(id) => {
         try {
             console.log(id);
-            const response = await fetch(`http://localhost:8000/api/admin/contacts/delete/${id}`,{
+            const response = await fetch(`https://abhishek.nssiitd.in/portfolio/api/admin/contacts/delete/${id}`,{
                 method:"DELETE",
                 headers:{
                     Authorization:authorizationToken
