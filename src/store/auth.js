@@ -43,7 +43,7 @@ export const AuthProvider = ({children}) => {
 
     const getServices = async()=>{
         try {
-            const response = await fetch("http://localhost:8000/api/services/getServices",{
+            const response = await fetch("https://abhishek.nssiitd.in/portfolio/api/services/getServices",{
                 method:"GET"
             }
             );
