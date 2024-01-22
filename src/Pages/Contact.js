@@ -46,7 +46,7 @@ export default function Contact() {
         event.preventDefault();
         // first time regsister krte h jab tb page reload krdeta h
         try {
-            const response = await fetch('http://localhost:8000/api/form/contact',{
+            const response = await fetch('https://abhishek.nssiitd.in/portfolio/api/form/contact',{
                 method:"POST",
                 headers:{
                     'Content-Type':"application/json"
