@@ -5,40 +5,14 @@ export default function WebDev() {
     <>
       <div className="projectDescription">
             <h1>
-                MERN Web Developement
+                Bituminous Mixture Data Analysis
             </h1>
-            <div className="projectImg">
-                <img src="/images/mern.png" alt="loading" height="500" width ="1000" />
-            </div>
+
             <p className="subheading">
-                What is Web Developement
+                Description
             </p>
             <p className="text">
-                Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something
-            </p>
-            <p className="subheading">
-                What is Web Developement
-            </p>
-            <p className="text">
-                Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something
-            </p>
-            <p className="subheading">
-                What is Web Developement
-            </p>
-            <p className="text">
-                Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something
-            </p>
-            <p className="subheading">
-                What is Web Developement
-            </p>
-            <p className="text">
-                Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something
-            </p>
-            <p className="subheading">
-                What is Web Developement
-            </p>
-            <p className="text">
-                Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something
+                Successfully developed a comprehensive web application dedicated to exploring diverse design material characteristics with a specific focus on strength-related attributes. The application, crafted through HTML, CSS, and JavaScript, integrates an Excel component for enhanced data management. Used chart library, the platform delivers enriched visualizations, facilitating in-depth analysis and interpretation of material strength metrics. Helped in regular lab activities,
             </p>
         </div>
     </>

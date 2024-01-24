@@ -10,11 +10,17 @@ export default function SmsSpam() {
             <div className="projectImg">
                 <img src="/images/smsspam.png" alt="loading" height="500" width ="1000" />
             </div>
+            <p className='text'>
+              Link to the dataset used is <a href="https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset" target="_blank">Dataset</a>
+            </p>
+            <p className='text'>
+              Gtihub Repo: <a href="https://github.com/abhishekk-1729/sms-spam-classifier" target="_blank">Github Repo</a>
+            </p>
             <p className="subheading">
-                Project Description
+                Description
             </p>
             <p className="text">
-                Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something Web development is the art of doing something
+                Developed a sms classifier to identify message whether it's a spam or a normal message. Built machine learning model which is running at 96 percentage accuracy.
             </p>
 
         </div>
