@@ -12,10 +12,10 @@ export default function Home() {
                 <div className="hero-content">
                     <p>Hi {user?user.username:"Guys"}</p>
                     <h1>This is Abhishek Kumar Full Stack Developer   </h1>   
-                    <h1>ML Enthusaist</h1>
+                    <h1>ML Enthusiast</h1>
                     <p>Welcome to my Page</p>
                     <div className="btn btn-group">
-                        <a href="/contact">
+                        <a href="https://drive.google.com/file/d/1A89VEtQJv6T1PVtAOl1cvT4o99b0UkIP/view?usp=sharing" target="_blank">
                             <button className="btn">
                                 Resume
                             </button>

@@ -33,6 +33,11 @@ export default function About() {
                 </div>
             </div>
         </section>
+        <section>
+            <div>
+                
+            </div>
+        </section>
     </main>
         </>
         )
